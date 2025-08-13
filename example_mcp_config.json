@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "coinbase-trade-assistant": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/home/ty/Repositories/ai_workspace/coinbase-trade-assistant-mcp",
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
