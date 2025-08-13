@@ -17,22 +17,14 @@ A sophisticated Model Context Protocol (MCP) server that provides intelligent cr
 
 ## Quick Start
 
-1. **Install Dependencies**:
-   ```bash
-   cd coinbase-trade-assistant-mcp
-   uv venv --python 3.12 --seed
-   source .venv/bin/activate
-   uv sync
-   ```
-
-2. **Configure API Keys**:
+1. **Configure API Keys**:
    - Get your free Coinbase CDP API keys from [Coinbase Developer Platform](https://docs.cdp.coinbase.com/advanced-trade/docs/auth)
    - More info [docs.cdp.coinbase.com/get-started/authentication/cdp-api-keys#creating-secret-api-keys](https://docs.cdp.coinbase.com/get-started/authentication/cdp-api-keys#creating-secret-api-keys)
    - Go to the advanced settings when getting your key and make sure to select "ECDSA"
    - Copy your `cdp_api_key.json` file to the project directory
    - That's it! No environment variables needed.
 
-3. **Add to Claude Desktop**:
+2. **Add to Claude Desktop**:
    ```json
    {
      "mcpServers": {
@@ -47,6 +39,14 @@ A sophisticated Model Context Protocol (MCP) server that provides intelligent cr
        }
      }
    }
+   ```
+
+3. **Install Dependencies- if there is an issue or you are not using the client config which should do this automatically**:
+   ```bash
+   cd coinbase-trade-assistant-mcp
+   uv venv --python 3.12 --seed
+   source .venv/bin/activate
+   uv sync
    ```
 
 ## Screening Criteria
