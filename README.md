@@ -26,7 +26,7 @@ A sophisticated Model Context Protocol (MCP) server that provides intelligent cr
    ```
 
 2. **Configure API Keys**:
-   - Get your Coinbase CDP API keys from [Coinbase Developer Platform](https://docs.cdp.coinbase.com/advanced-trade/docs/auth)
+   - Get your free Coinbase CDP API keys from [Coinbase Developer Platform](https://docs.cdp.coinbase.com/advanced-trade/docs/auth)
    - More info [docs.cdp.coinbase.com/get-started/authentication/cdp-api-keys#creating-secret-api-keys](https://docs.cdp.coinbase.com/get-started/authentication/cdp-api-keys#creating-secret-api-keys)
    - Go to the advanced settings when getting your key and make sure to select "ECDSA"
    - Copy your `cdp_api_key.json` file to the project directory
